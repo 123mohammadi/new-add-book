@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>کتابونه</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>کتابونه</h1>
+    
+    <!-- د اپلوډ فورم -->
+    <form id="uploadForm">
+        <input type="text" id="title" placeholder="عنوان" required>
+        <input type="text" id="author" placeholder="لیکوال">
+        <input type="file" id="bookFile" accept=".pdf,.epub" required>
+        <button type="submit">اپلوډ</button>
+    </form>
+
+    <!-- د کتابونو لیست -->
+    <div id="bookList"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
